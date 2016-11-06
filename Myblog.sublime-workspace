@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"form_full_name"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"form",
+				"form_full_name"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"con",
+				"contact_message"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"Sign",
+				"SignUp"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"b",
+				"button\tTag"
+			],
+			[
+				"navbar",
+				"navbar-right"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"back-c",
+				"background-color"
+			],
+			[
+				"col",
+				"col-xs-6"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"stack",
+				"stack"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"s",
+				"stack"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"prevx",
+				"prevx"
+			],
+			[
+				"cu",
+				"currenty"
+			],
+			[
+				"prev",
+				"prevx"
+			],
+			[
+				"n",
+				"newnode"
+			],
+			[
+				"prin",
+				"printList"
+			],
+			[
+				"search",
+				"searchTextField"
+			],
+			[
+				"maps",
+				"maps5"
+			],
+			[
+				"arti",
+				"articles"
+			],
+			[
+				"ar",
+				"articleList1"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"se",
+				"setCustomValidity"
+			],
+			[
+				"firs",
+				"firstPasswordInput"
+			],
+			[
+				"require",
+				"requirements"
+			],
+			[
+				"requi",
+				"Required"
+			],
+			[
+				"en",
+				"endTime"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"commetn",
+				"commentdate"
+			],
+			[
+				"p",
+				"posts"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pr",
+				"profileimage"
+			],
+			[
+				"expre",
+				"expressValidator"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"passport",
+				"passport"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 274.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Build With: C++ Single File"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 50.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/yash/Documents/DjangoBlog/Scripts/django-admin.py",
+		"/D/DjangoBlog/Scripts/django-admin.py",
+		"/C/Users/yash/Documents/Django Blog/Scripts/django-admin.py",
+		"/C/Users/yash/Documents/web d/Tourism/templates/home.html",
+		"/C/Users/yash/Documents/web d/Tourism/templates/base.html",
+		"/C/Users/yash/Documents/web d/Tourism/static/my_static/css/navbar-static-top.css",
+		"/C/Users/yash/Documents/web d/Tourism/templates/about.html",
+		"/C/Users/yash/Documents/web d/Tourism/templates/navbar.html",
+		"/C/Users/yash/Desktop/test.html",
+		"/C/Users/yash/Documents/web d/Tourism/newsletter/views.py",
+		"/C/Users/yash/Documents/web d/Tourism/templates/head_css.html",
+		"/C/Users/yash/Documents/web d/Tourism/templates/javascript.html",
+		"/C/Users/yash/Documents/web d/Tourism/Tourism/settings",
+		"/C/Downloads/Knight/Knight/index.html",
+		"/C/Users/yash/Documents/web d/Tourism/static/my_static/js/map.js",
+		"/C/Downloads/Knight/Knight/js/script.js",
+		"/C/Users/yash/Desktop/Thank you for joining our mailing list - yash199649@gmail.com - Gmail.html",
+		"/C/Users/yash/Documents/web d/Tourism/newsletter/models.py",
+		"/C/Users/yash/Documents/web d/Tourism/templates/registration/activation_email.txt",
+		"/C/Users/yash/Desktop/scrape_with_bs4.py",
+		"/C/Users/yash/Documents/web d/Tourism/templates/forms.html",
+		"/C/Users/yash/Documents/web d/Tourism/Tourism/settings.py",
+		"/C/Users/yash/Documents/web d/Tourism/Tourism/urls.py",
+		"/C/mysite/mongotest/views.py",
+		"/C/Users/yash/Downloads/Viberr-master/Viberr-master/music/forms.py",
+		"/C/Users/yash/Documents/rest-server-passport/config.js",
+		"/C/Users/yash/Documents/rest-server-passport/package.json",
+		"/C/Users/yash/Desktop/hello.py",
+		"/C/Users/yash/Downloads/loginservlet/rd/src/LoginDao.java",
+		"/C/Users/yash/Downloads/loginservlet/rd/WebRoot/index.html",
+		"/C/Users/yash/Documents/rough/server simple/server.js",
+		"/C/Users/yash/Documents/rough/server simple/simpleserver/simpleserver/server.js",
+		"/C/Users/yash/Desktop/simpleserver/package.json",
+		"/C/Users/yash/Documents/rough/servernode",
+		"/D/xammp/htdocs/phpproject-master/page1.php",
+		"/C/TURBOC3/BIN/PROJECT/stackarray.C",
+		"/C/TURBOC3/BIN/PROJECT/smartprix1.c",
+		"/C/TURBOC3/BIN/PROJECT/LLINSE~1.C",
+		"/C/TURBOC3/BIN/PROJECT/llinsertion.c",
+		"/C/Users/yash/Documents/DS/llinsertion.c",
+		"/D/xammp/htdocs/shoppy/web/charts.html",
+		"/D/xammp/htdocs/shoppy/web/index.html",
+		"/C/Users/yash/Documents/Ajax Pro/Ajax mini project/index.html",
+		"/C/Users/yash/Documents/Java Test codes/Student.java",
+		"/C/Downloads/Knight/Knight/css/style.css",
+		"/C/Users/yash/Documents/web d/udacityhw-1/main.py",
+		"/C/Users/yash/Documents/web d/udacityhw-1/index.yaml",
+		"/C/Users/yash/Documents/web d/udacityhw-1/app.yaml",
+		"/D/xammp/htdocs/3/navbar-after-login.php",
+		"/D/xammp/htdocs/3/index.php",
+		"/C/Users/yash/Documents/3/index.php",
+		"/C/Users/yash/Documents/web d/app1/app.yaml",
+		"/C/Users/yash/Documents/Hello-Udacity/index.yaml",
+		"/C/Users/yash/Documents/Ajax Pro/Ajax mini project/iframe.html",
+		"/C/Users/yash/Downloads/lesson2-quizCustomValidity-solution/solution/app.js",
+		"/C/Users/yash/Downloads/Udacity_AJAX_INIT (1)/minicourse-ajax-project/js/script.js",
+		"/C/Users/yash/Downloads/chapter-2-examples/chapter-2/2-examples/index.js",
+		"/C/Users/yash/Downloads/chapter2/chapter2/gulpfile.js",
+		"/C/node projects/express-server/app.js",
+		"/C/Users/yash/Documents/node-examples/rest-server-passport/routes/dishRouter.js",
+		"/C/Users/yash/Documents/node-examples/node-mongoose/models/dishes.js",
+		"/C/node projects/nodeblog/routes/index.js",
+		"/C/Users/yash/Downloads/chapter1/chapter1/gulpfile.js",
+		"/C/node projects/comevents/views/admin/users/index.js",
+		"/C/node projects/nodeblog/views/addcategory.jade",
+		"/C/node projects/nodeblog/public/stylesheets/style.css",
+		"/C/node projects/nodeblog/package.json",
+		"/C/node projects/node-auth/model/user.js",
+		"/C/node projects/node-auth/models/user.js",
+		"/C/node projects/node-auth/package.json",
+		"/C/node projects/node-auth/views/layout.jade",
+		"/C/Users/yash/Downloads/nodeauth/nodeauth/routes/users.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"emp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Myblog.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
