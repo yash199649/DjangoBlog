@@ -4,11 +4,13 @@
 <head>
 <link rel="stylesheet" type="text/css" href="{%static 'css/base.css'%}">
 <!-- Latest compiled and minified CSS -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<title> {%block head_title%}MyBlog{%endblock head_title%}</title>
+	{%block head_extra%}{%endblock%}
 </head>
 <body>
 <div id="fb-root"></div>
@@ -28,9 +30,40 @@
 {%endblock content%}
 
 </div>
-
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js" integrity="sha256-mJAzKDq6kSoKqZKnA6UNLtPaIj8zT2mFnWu/GSouhgQ=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".content-markdown").each(function(){
+
+			var content = $(this).text();
+			var markedContent = marked(content);
+			console.log(markedContent);
+			$(this).html(markedContent);
+
+		});
+		$(".post-detail-item img").each(function(){
+
+			$(this).addClass("img-responsive");
+			$(this).css("width","100%")
+			
+		});
+		var titleItem= $("#id_title");
+		
+		$(".preview_title").text(titleItem.val());	
+
+	});
+
+
+
+
+
+
+</script>
 </body>
 </html>

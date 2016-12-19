@@ -1,6 +1,8 @@
 {% extends "base.html"%}
 {% load crispy_forms_tags %}
-{%block head_title%}{{instance.title}}| {{block.super}}{%endblock head_title%}
+{%block head_title%}{{title}}| {{block.super}}{%endblock head_title%}
+{%block head_extra%}
+{{form.media}}{%endblock%}
 {% block content%}
 
 <!DOCTYPE html>
@@ -13,11 +15,24 @@
 <body>
 
 <h1 align="center">{{title}}</h1><br><br><br>
-<div class="row"><div class="col-sm-4"></div>
-<div class="col-sm-8 col-sm-offset-2"><form method="POST" action="" enctype="multipart/form-data">{%csrf_token%}
+
+
+<div class="col-sm-5"><form method="POST" action="" enctype="multipart/form-data">{%csrf_token%}
 {{form|crispy}}
 <input type="submit" class="btn btn-primary" value="{{title}}">
-</form></div></div>
+</form></div>
+<div class="col-sm-2"></div>
+<div class="col-sm-4"><h1>Preview</h1>
+<div class="content-review">
+	<h3 class="preview-title"></h3>
+	<p class="preview_content"></p>
+</div>
+
+
+
+
+
+</div>
 {%endblock content%}
 </body>
 </html>

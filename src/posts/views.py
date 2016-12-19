@@ -18,7 +18,7 @@ def posts_create(request):
 		instance = form.save(commit=False)
 		instance.user=request.user
 		instance.save()
-		messages.success(request,"<a href="">Item</a> Saved",extra_tags='html_safe')
+		messages.success(request,"Created Succesfully",extra_tags='html_safe')
 		return HttpResponseRedirect(instance.get_absolute_url())
 	
 	#if request.method=="POST":
@@ -76,7 +76,7 @@ def posts_list(request):
 		queryset = paginator.page(paginator.num_pages)
 	context={
 		"queryset":queryset,
-		"title":"list",
+		"title":"Blogs",
 		"page_request_var":page_request_var,
 		"today":today
 		}

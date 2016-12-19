@@ -5,6 +5,8 @@ from django.utils.text import slugify
 from django.core.urlresolvers import reverse
 from django.conf import settings
 from django.utils import timezone
+from markdown_deux import markdown
+from django.utils.safestring import mark_safe
 class Postmanager(models.Manager):
 	def active(self,*args,**kwargs):
 		return super(Postmanager,self).filter(draft=False).filter(publish__lte=timezone.now())
@@ -36,6 +38,9 @@ class Post(models.Model):
 		return self.title
 	def get_absolute_url(self):
 		return "/posts/%s" % (self.id)
+	def get_markdown(self):
+		content=self.content
+		return mark_safe(markdown(content))
 
 
 		#return reverse("detail",kwargs={"id":self.id})
